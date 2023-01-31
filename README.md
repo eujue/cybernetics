@@ -1,6 +1,6 @@
 ## ABOUT
 
-This is a visual collage of "All Watched Over By Machines Of Loving Grace" by Richard Brautigan. I created three different environments for each stanza of the poem where each space subsequently loses machines as "we join back to nature."
+[This](https://eujue-cybernetics.glitch.me/) is a visual collage of "All Watched Over By Machines Of Loving Grace" by Richard Brautigan. I created three different environments for each stanza of the poem where each space subsequently loses machines as "we join back to nature."
 
 The third environment background is a direct scene from the ending of Princess Mononoke, where there is a rebirth of nature from heavy urbanization from humans – sadly not from technology, but from coal. Nevertheless, I thought this scene was still a good representation of where we return to nature.
 
