@@ -1,0 +1,386 @@
+html,
+body {
+  width: 100vw;
+  height: 100vh;
+  font-family: "Lucida Console", monospace;
+  font-size: 1em;
+  font-style: italic;
+  margin: 0;
+  color: white;
+  cursor: default;
+  overflow: scroll;
+}
+
+/*first scene*/
+.bunny {
+  position: absolute;
+  width: 100px;
+  height: auto;
+  left: 50%;
+  top: 50%;
+  transform: scaleX(-1);
+  cursor: grab;
+  /*   touch-action: none; */
+}
+
+.bunny:hover {
+  filter: drop-shadow(0px 4px 29px rgba(255, 236, 136, 0.8));
+}
+.bunny2 {
+  position: absolute;
+  width: 100px;
+  height: auto;
+  left: 60%;
+  top: 50%;
+  transform: scaleX(-1);
+  cursor: grab;
+  touch-action: none;
+}
+.bunny2:hover {
+  filter: drop-shadow(0px 4px 29px rgba(255, 236, 136, 0.8));
+}
+
+.computer1 {
+  position: absolute;
+  width: 200px;
+  height: auto;
+  left: 40%;
+  top: 39%;
+  transform: scaleX(-1);
+  cursor: grab;
+  touch-action: none;
+}
+.computer1:hover {
+  filter: drop-shadow(0px 4px 29px rgba(255, 236, 136, 0.8));
+}
+.grass1 {
+  position: absolute;
+  width: 300px;
+  height: auto;
+  left: 33%;
+  top: 15%;
+}
+
+.computer2 {
+  position: absolute;
+  width: 220px;
+  height: auto;
+  left: 30%;
+  top: 25%;
+  transform: scaleX(-1);
+  touch-action: none;
+  cursor: grab;
+}
+.computer2:hover {
+  filter: drop-shadow(0px 4px 29px rgba(255, 236, 136, 0.8));
+}
+.grass2 {
+  position: absolute;
+  width: 220px;
+  height: auto;
+  left: 50%;
+  top: 30%;
+}
+
+.computer3 {
+  position: absolute;
+  width: 220px;
+  height: auto;
+  left: 50%;
+  top: 25%;
+  cursor: grab;
+  touch-action: none;
+}
+.computer3:hover {
+  filter: drop-shadow(0px 4px 29px rgba(255, 236, 136, 0.8));
+}
+.grass3 {
+  position: absolute;
+  width: 260px;
+  height: auto;
+  left: 47%;
+  top: 42%;
+}
+
+.computer4 {
+  position: absolute;
+  width: 220px;
+  height: auto;
+  left: 58%;
+  top: 32%;
+  cursor: grab;
+  touch-action: none;
+}
+
+.computer4:hover {
+  filter: drop-shadow(0px 4px 29px rgba(255, 236, 136, 0.8));
+}
+.grass4 {
+  position: absolute;
+  width: 240px;
+  height: auto;
+  left: 60%;
+  top: 20%;
+}
+.butterflies {
+  position: absolute;
+  width: 200px;
+  height: auto;
+  left: 55%;
+  top: 15%;
+}
+.butterflies2 {
+  position: absolute;
+  width: 200px;
+  height: auto;
+  left: 35%;
+  top: 20%;
+}
+#stanza {
+  position: absolute;
+  width: 45%;
+  left: 30%;
+  bottom: 23%;
+  text-align: center;
+}
+
+#stanza2 {
+  position: absolute;
+  width: 35%;
+  left: 32%;
+
+  text-align: center;
+}
+.grass6 {
+  position: absolute;
+  width: 220px;
+  height: auto;
+  left: 30%;
+  top: 37%;
+}
+
+#meadow:hover {
+  color: #558303;
+  font-weight: bold;
+  cursor: crosshair;
+}
+
+#mammals:hover {
+  color: #fff942;
+  font-weight: bold;
+  cursor: crosshair;
+}
+
+#computers:hover {
+  color: #8b42ff;
+  font-weight: bold;
+  cursor: crosshair;
+}
+#DragArea {
+  width: 100vw;
+  height: 100vh;
+}
+
+/* second scene */
+.pine1 {
+  position: absolute;
+  width: 350px;
+  height: auto;
+  left: 36%;
+  top: 5%;
+}
+.pine2 {
+  position: absolute;
+  width: 220px;
+  height: auto;
+  left: 25%;
+  top: 27%;
+}
+.pine3 {
+  position: absolute;
+  width: 320px;
+  height: auto;
+  left: 52%;
+  top: 12%;
+}
+.grass {
+  position: absolute;
+  width: 180px;
+  height: auto;
+  left: 42%;
+  top: 46%;
+}
+.rightGrass {
+  position: absolute;
+  width: 180px;
+  height: auto;
+  left: 62%;
+  top: 46%;
+}
+.leftComputer {
+  position: absolute;
+  width: 180px;
+  height: auto;
+  left: 37%;
+  top: 42%;
+  transform: scaleX(-1);
+  cursor: grab;
+  touch-action: none;
+}
+
+.leftComputer:hover {
+  filter: drop-shadow(0px 4px 29px rgba(255, 236, 136, 0.8));
+}
+.rightComputer {
+  position: absolute;
+  width: 200px;
+  height: auto;
+  left: 57%;
+  top: 39%;
+  cursor: grab;
+  touch-action: none;
+}
+.rightComputer:hover {
+  filter: drop-shadow(0px 4px 29px rgba(255, 236, 136, 0.8));
+}
+.daisy1 {
+  position: absolute;
+  width: 80px;
+  height: auto;
+  left: 33%;
+  top: 42%;
+  touch-action: none;
+}
+.daisy2 {
+  position: absolute;
+  width: 60px;
+  height: auto;
+  left: 53%;
+  top: 45%;
+  transform: scaleX(-1);
+  touch-action: none;
+}
+.daisy3 {
+  position: absolute;
+  width: 80px;
+  height: auto;
+  left: 63%;
+  top: 42%;
+  touch-action: none;
+}
+.daisy4 {
+  position: absolute;
+  width: 40px;
+  height: auto;
+  left: 57%;
+  top: 52%;
+  touch-action: none;
+  transform: scaleX(-1);
+}
+.daisy5 {
+  position: absolute;
+  width: 40px;
+  height: auto;
+  left: 37%;
+  top: 52%;
+  touch-action: none;
+  transform: scaleX(-1);
+}
+.deer {
+  position: absolute;
+  width: 140px;
+  height: auto;
+  left: 47%;
+  top: 48%;
+  touch-action: none;
+  cursor: grab;
+}
+.deer:hover {
+  filter: drop-shadow(0px 4px 29px rgba(255, 236, 136, 0.8));
+}
+#forest:hover {
+  color: #558303;
+  font-weight: bold;
+  cursor: crosshair;
+}
+#deer:hover {
+  color: #fff942;
+  font-weight: bold;
+  cursor: crosshair;
+}
+#computer:hover {
+  color: #8b42ff;
+  font-weight: bold;
+  cursor: crosshair;
+}
+#blossoms:hover {
+  color: #6398ff;
+  font-weight: bold;
+  cursor: crosshair;
+}
+
+.orangeRabbit {
+  position: absolute;
+  width: 100px;
+  height: auto;
+  left: 34%;
+  top: 50%;
+  cursor: grab;
+  touch-action: none;
+}
+
+.deer2 {
+  position: absolute;
+  width: 140px;
+  height: auto;
+  left: 47%;
+  top: 48%;
+  touch-action: none;
+  cursor: grab;
+}
+.bunny3 {
+  position: absolute;
+  width: 100px;
+  height: auto;
+  left: 60%;
+  top: 50%;
+  transform: scaleX(-1);
+  cursor: grab;
+  touch-action: none;
+}
+#alert {
+  position: absolute;
+  width: 35%;
+  left: 32%;
+  top: 10%;
+  text-align: center;
+
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  color: black;
+}
+
+.bg1 {
+
+  position:absolute;
+  right:33%;
+  left:33%;
+  bottom:40%;
+  top:20%;
+  float:right
+}
+.bg2 {
+   position:absolute;
+  right:33%;
+  left:33%;
+  bottom:40%;
+  top:20%;
+}
+.bg3 {
+   position:absolute;
+  right:33%;
+  left:33%;
+  bottom:40%;
+  top:20%;
+}
+
